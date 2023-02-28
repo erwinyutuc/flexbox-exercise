@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    border: solid green 3px;
+    background-color: lightgreen;
+    width: 100%;
+}
+
+/* SECTION 1*/
+
+.container1 {
+    border:  solid blue 8px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: lightblue;
+    display: flex;
+}
+
+.flexcontainer1 {
+    border: solid darkgoldenrod 8px;
+    padding: 1rem;
+    flex: 1;
+    margin: 1rem;
+    background-color: lightsalmon;
+    display: flex;
+}
+
+.flexitem {
+    border: solid red 4px;
+    height: 4rem;
+    flex: 1;
+    background-color: pink
+}
+
+/* SECTION 2 */
+
+.midsection {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.bigbox {
+    border: solid maroon 8px;
+    margin: 1rem;
+    height: 14rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+} 
+
+.riside {
+    width: 50%;
+}
+
+.longbox1 {
+    border: solid maroon 8px;
+    margin: 1rem;
+    height: 6.5rem;
+    width: 50%;
+    background-color: pink;
+}
+
+/* SECTION 3 */
+
+.container2 {
+    border: solid blue 8px;
+    margin: 8px;
+    padding: 8px;
+    background-color: lightblue;
+    display: flex;
+}
+
+.flexcontainer2 {
+    border: solid purple 4px;
+    margin: 8px;
+    padding: 8px;
+    height: 6rem;
+    width: 25rem;
+    background-color: lightpink;
+}
+
+.smallbox {
+    border: solid darkgoldenrod 4px;
+    margin: 8px;
+    padding: 8px;
+    width: 10rem;
+    background-color: lightsalmon;
+}
